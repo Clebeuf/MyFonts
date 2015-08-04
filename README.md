@@ -7,18 +7,14 @@
 ![alt tag](https://raw.githubusercontent.com/Clebeuf/MyFonts/master/Carlene/Carlene-Sample.png)
 How to use:
 
-1. Download & include the Carlene folder in your project
+1. Download & include your desired file format(s)
 
 2. Include the following in your css file:
 
 ```css
 @font-face {
 	font-family:'Carlene-Regular';
-	src: url('Carlene_gdi.eot');
-	src: url('Carlene_gdi.eot?#iefix') format('embedded-opentype'),
-		url('Carlene_gdi.woff') format('woff'),
-		url('Carlene_gdi.ttf') format('truetype'),
-		url('Carlene_gdi.svg#Carlene-Regular') format('svg');
+	src: url('Carlene_gdi.woff'); // or format that you've selected
 	font-weight: 500;
 	font-style: normal;
 	font-stretch: normal;
